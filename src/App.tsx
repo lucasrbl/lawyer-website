@@ -1,11 +1,12 @@
+import { MainSection } from './components/MainSection/MainSection';
 
-
-function App() {
+const App: React.FC = () => {
 
   return (
     <>
+    <MainSection />
     </>
   );
-}
+};
 
 export default App;
