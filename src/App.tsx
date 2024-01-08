@@ -1,7 +1,7 @@
 import { GlobalStyles } from './assets/styles/GlobalStyles';
 import { Header } from './components/Header/Header';
 
-function App() {
+const App: React.FC = () => {
 
   return (
     <>
@@ -9,6 +9,6 @@ function App() {
     <Header/>
     </>
   );
-}
+};
 
 export default App;
