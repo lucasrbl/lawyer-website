@@ -7,6 +7,14 @@ export const GlobalStyles = createGlobalStyle`
     box-sizing: border-box;
   }
 
+  :root {
+    --bar-width: 60px;
+    --bar-heigth: 8px;
+    --hamburguer-gap: 6px;
+    --foreground: #333;
+    --background: #FFF;
+  }
+
   h1 {
     font-family: 'Dancing Script', cursive;
   }
@@ -15,7 +23,7 @@ export const GlobalStyles = createGlobalStyle`
     font-family: 'Abel', sans-serif;
   }
 
-  p, span, input, label, textarea {
+  p, a, span, input, label, textarea {
     font-family: 'Inter', sans-serif;
   }
 `;
