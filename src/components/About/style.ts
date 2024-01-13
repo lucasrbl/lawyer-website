@@ -20,20 +20,16 @@ export const TitleContainer = styled.div `
 
 
 export const ContentContainer = styled.div `
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
 `;
 
 export const RightContainer = styled.div `
     display: flex;
     flex-direction: column;
+    gap: 20px;
 `;
 
-export const LeftContainer = styled.div `
-    display: flex;
-    flex-direction: column;
+export const BelowContainer = styled.div `
+
 `;
 
 export const Text = styled.p `
